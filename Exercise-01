@@ -1,0 +1,16 @@
+#input
+nama = "Mahardika Widodo Nugraheni"
+nim = "I0322073"
+alamat = "Jalan Samosir No 16 Banjarsari Surakarta"
+visualisasi = "Sragen merupakan kampung halaman saya yang masih terjaga kelestarian alamnya."
+harapan = "Semoga tujuan dan cita-cita saya dapat tercapai untuk membanggakan orang tua sebagai seorang engineering."
+
+dict = {"a" : nama, "b" : nim, "c" :alamat, "d" : visualisasi, "e" : harapan}
+
+
+#hasil
+print("Nama saya adalah", dict["a"])
+print("NIM saya", dict["b"])
+print("Saya tinggal di", dict["c"])
+print("Saya berasal dari Sragen.", dict["d"])
+print("Harapan saya sebagai lulusan Teknik Industri : ", dict["e"])
